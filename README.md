@@ -1,1 +1,1 @@
-https://flatrone123.github.io/rsschool-cv/cv
+https://github.com/flatrone123/rsschool-cv/blob/main/cv.md
