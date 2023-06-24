@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.section-title {
+    text-align: center;
+
+    color: #F2785C;
+    font-size: 40px;
+    /* font-family: Red Hat Text; */
+    font-weight: 500;
+}
+
+
+.page {
+    width: 1440px;
+    margin: auto;
+}
+
+.container {
+    width: 1177px;
+    margin: auto;
+}
+
+.welcome {
+    height: 765px;
+    background-image: url('img/header/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg');
+}
+
+
+
+
+/* header */
+.header {
+    height: 90px;
+
+    display: flex;
+
+    background: rgba(242, 120, 92, 0.7);
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo__img {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.logo__text {
+    color: #FFF;
+    font-size: 32px;
+    font-family: Magra;
+    font-weight: 600;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav__item {
+    padding: 0 21px;
+
+    color: #FFF;
+    font-size: 16px;
+    font-family: Red Hat Text;
+    font-weight: 500;
+
+    text-decoration: none;
+}
+
+.nav__btn {
+    display: flex;
+    width: 103px;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: #ffffff;
+
+    border-radius: 10px;
+    background: #0D606F;
+    box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+/* plan-trip */
+.plan-trip {
+    width: 892px;
+    height: 422px;
+
+    margin: 32px 0 0 120px;
+}
+
+.plan-trip__head {
+    color: #FFF;
+    font-size: 80px;
+    font-family: Aleo;
+    font-weight: 700;
+}
+
+.plan-trip__text {
+    margin: 46px 0;
+
+    color: #FFF;
+    font-size: 20px;
+    font-family: Aleo;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.plan-trip__search {
+    width: 892px;
+    height: 95px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 40px;
+
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.70);
+}
+
+.plan-trip__search__text {
+    display: flex;
+    width: 560px;
+    height: 22px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    color: #F2785C;
+    font-size: 24px;
+    font-family: Aleo;
+    font-style: italic;
+}
+
+.plan-trip__search__btn {
+    display: flex;
+    width: 228px;
+    height: 59px;
+    padding: 10px 32px;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: #FFF;
+    font-size: 24px;
+    font-family: Red Hat Text;
+    font-weight: 500;
+
+    border-radius: 10px;
+    background: #0D606F;
+    box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16), 0px 0px 3px 0px rgba(13, 96, 111, 0.08);
+}
+
+
+
+
+
+/* main */
+
+.steps {
+    margin-top: 80px;
+    margin-bottom: 97px;
+}
+
+.steps__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps__card {}
+
+.card__img {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 40px;
+
+    border-radius: 15px;
+}
+
+.card__text {
+    color: #0D606F;
+    font-size: 20px;
+    font-family: Aleo;
+}
+
+
+
+
+
+/* destionations */
+
+.destinations {
+    margin-bottom: 80px;
+}
+
+.carusel {
+    margin-top: 46px;
+
+    display: flex;
+    overflow: hidden;
+}
+
+.carusel__img {}
+
+.section__btn {
+    width: 228px;
+    height: 59px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+
+    color: #FFF;
+    font-size: 24px;
+    font-family: Red Hat Text;
+    font-weight: 500;
+
+    border-radius: 10px;
+    background: #0D606F;
+    box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16), 0px 0px 3px 0px rgba(13, 96, 111, 0.08);
+
+}
+
+
+
+
+/* image */
+
+.image {
+    background-image: url('img/main/stories/bg.jpg');
+}
+
+/* stories */
+.stories {
+    padding-bottom: 41px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5))
+}
+
+
+
+.stories__box {
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.stories__box .container {
+    margin-bottom: 40px;
+}
+
+/* .ex {
+    position: absolute;
+    opacity: 0.5;
+    z-index: 0;
+} */
+
+.stories__story {
+    margin-bottom: 30px;
+
+    display: flex;
+
+    position: relative;
+    z-index: 1;
+}
+
+.stories__story:last-child {
+    margin-bottom: 0;
+}
+
+.story__img {
+    margin-right: 40px;
+
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px #0D606F;
+}
+
+.story__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.story__title {
+    width: 760px;
+
+
+    color: #0D606F;
+    font-size: 35px;
+    font-family: Aleo;
+}
+
+.story__text {
+    display: flex;
+    width: 760px;
+    height: 184px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    color: #0D606F;
+    font-size: 20px;
+    font-family: Aleo;
+}
+
+
+
+
+/* footer */
+
+.footer {
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.image .container {
+    position: relative;
+}
+
+.footer__text {
+    text-align: center;
+    margin: auto;
+
+    color: #FFF;
+    font-size: 16px;
+    font-family: Red Hat Text;
+    font-weight: 500;
+}
+
+.icons {
+    display: flex;
+    position: absolute;
+
+    right: 0;
+}
+
+.footer__icon {
+    margin: 0 10px;
+}
+
